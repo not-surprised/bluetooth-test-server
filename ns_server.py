@@ -5,11 +5,10 @@ from time import time
 
 import dbus
 
-from ble.advertisement import Advertisement
-from ble.service import Application, Service, Characteristic, Descriptor
+from advertisement import Advertisement
+from service import Application, Service, Characteristic, Descriptor
 
-from sensors.brightness_sensor import BrightnessSensor
-from sensors.volume_sensor import VolumeSensor
+from brightness_sensor import BrightnessSensor
 
 
 GATT_CHRC_IFACE = 'org.bluez.GattCharacteristic1'
